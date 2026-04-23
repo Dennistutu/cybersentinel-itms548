@@ -1,0 +1,18 @@
+{
+  "api_keys": {
+    "nvd": "c67f117d-a2bb-4c7d-94a7-a5a9d1b9fa3f",
+    "abuseipdb": "8ca3b880e38dc2d4db0dcdf4c5ed24a7cae7f0f020f84163d5b569773ba9e6f3c48005d2b9d40276",
+    "virustotal": "04a86e7aa5e779a6dcef0e3d3cd2d94078933186b4946f1df2f47a056b5f1f08",
+    "alienvault_otx": "6fedc628b783ceb791a1bd1d417a85a21a963189b70173f1dbf741b529e97022"
+  },
+  "settings": {
+    "cache_enabled": true,
+    "cache_duration_hours": 24,
+    "max_api_retries": 3,
+    "request_timeout": 30,
+    "log_level": "INFO"
+  },
+  "database": {
+    "path": "data/cybersentinel.db"
+  }
+}
