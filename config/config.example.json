@@ -1,0 +1,18 @@
+{
+  "api_keys": {
+    "nvd": "YOUR_NVD_API_KEY_HERE",
+    "abuseipdb": "YOUR_ABUSEIPDB_KEY_HERE",
+    "virustotal": "YOUR_VIRUSTOTAL_KEY_HERE",
+    "alienvault_otx": "YOUR_OTX_KEY_HERE"
+  },
+  "settings": {
+    "cache_enabled": true,
+    "cache_duration_hours": 24,
+    "max_api_retries": 3,
+    "request_timeout": 30,
+    "log_level": "INFO"
+  },
+  "database": {
+    "path": "data/cybersentinel.db"
+  }
+}
